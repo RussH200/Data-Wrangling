@@ -38,4 +38,4 @@ refined <- mutate(refined, product_laptop = ifelse(product_category == "Laptop",
 refined <- mutate(refined, product_tablet = ifelse(product_category == "Tablet", 1, 0))
 
 # Write out new CSV file with cleaned up changes documented above
-write.csv(refined,"clean_refine.csv")
+write.csv(refined,"refine_clean.csv")
